@@ -477,22 +477,7 @@ calculation results in acc.log.
 | Fine-tune checkpoint| 277M (.ckpt file)         | 277M (.ckpt file)                     |
 | script              | [autoaugment](./)         | [autoaugment](./)                     |
 
-### GPU performance
 
-| parameter           | Single card GPU           | Eight cards GPU                       |
-|:--------------------|:--------------------------|:--------------------------------------|
-| resource            | Nvidia Titan V            | Nvidia Titan V                        |
-| Upload date         | -                         | -                                     |
-| MindSpore version   | 1.5.0                     | 1.5.0                                 |
-| Training data set   | SVHN                      | SVHN                                  |
-| Training parameters | epoch=50, batch_size=128  | epoch=50, batch_size=128, lr_max=0.08 |
-| Optimizer           | Momentum                  | Momentum                              |
-| Output              | loss                      | loss                                  |
-| Top-1, %            | 98.25%                    | 98.36%                                |
-| speed               | 242.36 ms/step            | 351.9 ms/step                         |
-| Total time          | 16 h                      | 3.1 h                                 |
-| Fine-tune checkpoint| 289.8M (.ckpt file)       | 289.8M (.ckpt file)                   |
-| script              | [autoaugment](./)         | [autoaugment](./)                     |
 
 ## Random case description
 
