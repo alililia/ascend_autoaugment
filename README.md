@@ -149,19 +149,7 @@ this example.
 
   ```
 
-- GPU processor environment operation
 
-  ```bash
-
-  # Distribute GPU training
-  bash ./scripts/run_distribute_train_gpu.sh [DATASET_PATH]
-
-  # Standalone GPU training
-  bash ./scripts/run_standalone_train_gpu.sh [DATASET_PATH]
-
-  # Evaluation on GPU
-  bash ./scripts/run_eval_gpu.sh [CHECKPOINT_PATH] [DATASET_PATH]
-  ```
 
 Distributed Ascend training requires the creation of an HCCL configuration
 file in JSON format in advance. For specific operations, please refer to the
